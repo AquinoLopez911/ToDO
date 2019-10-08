@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  height: 1000px;
+  background-image: linear-gradient(to bottom right, #00ffc8, #b4f1cc);
+  /* #3fa466 */
 }
 
 .App-logo {
@@ -19,4 +22,40 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+
+.inline {
+  display: inline-block;
+}
+
+
+.title {
+  font-size: 200px;
+  color: limegreen;
+}
+
+.box {
+  max-width: 650px;
+  /* height: 250px; */
+  margin: 5% auto;
+
+}
+
+.form-lego {
+  display: inline-block;
+}
+
+.task {
+  background-color: #FFF;
+  border: .5px solid #aaa;
+  border-radius: 10px;
+}
+
+input[type=checkbox] {
+  width     : 2em;
+  height: 3em;
+  margin    : 0;
+  padding   : 0;
+  font-size : 1em;
 }
